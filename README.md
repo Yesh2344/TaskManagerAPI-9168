@@ -43,3 +43,5 @@ For a comprehensive API documentation, please visit [https://example.com/api/doc
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+## Changelog
+- v4.9.0: Performance improvements
