@@ -1,0 +1,30 @@
+{
+    "name": "task-manager-api",
+    "description": "A production-ready task management API with authentication.",
+    "type": "project",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "laravel/framework": "^8.0",
+        "laravel/breeze": "^1.0",
+        "laravel/sanctum": "^2.0"
+    },
+    "require-dev": {
+        "fakerphp/faker": "^1.9.1",
+        "laravel/sail": "^1.0",
+        "laravel/tinker": "^2.0",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "php artisan test"
+    }
+}
