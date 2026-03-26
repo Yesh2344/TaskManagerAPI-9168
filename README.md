@@ -48,3 +48,6 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ## Changelog
 - v9.5.6: Performance improvements
+
+## Changelog
+- v9.6.8: Performance improvements
