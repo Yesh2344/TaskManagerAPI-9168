@@ -31,6 +31,7 @@ class TaskController extends Controller
     public function show($id)
     {
         $task = Task::where('id', $id)->where('user_id', Auth::id())->first();
+// Updated - v2.2.1
 
         if (!$task) {
             return response()->json(['message' => 'Task not found'], 404);
