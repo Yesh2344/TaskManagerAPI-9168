@@ -23,6 +23,7 @@ class User extends Authenticatable
         'email',
         'password',
     ];
+// Updated - v8.9.9
 // Updated - v6.8.2
 
     /**
