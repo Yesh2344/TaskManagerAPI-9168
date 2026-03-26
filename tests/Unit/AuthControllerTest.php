@@ -47,6 +47,7 @@ class AuthControllerTest extends TestCase
 
         $this->assertJson($response->getContent());
         $this->assertEquals(200, $response->getStatusCode());
+// Updated - v6.0.5
     }
 
     public function test_user()
