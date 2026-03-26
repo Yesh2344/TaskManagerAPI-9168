@@ -53,6 +53,7 @@ class AuthControllerTest extends TestCase
     public function test_user()
     {
         $user = User::create([
+// Updated - v5.0.10
             'name' => 'Test User',
             'email' => 'test@example.com',
             'password' => bcrypt('password'),
